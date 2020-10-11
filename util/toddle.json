@@ -1,0 +1,23 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"toddle"},
+{"type":"table","name":"survey","database":"toddle","data":
+[
+{"survey_id":"1","question":"one","user_id":"zain"},
+{"survey_id":"2","question":"one two","user_id":"zain"}
+]
+}
+,{"type":"table","name":"surveyanswer","database":"toddle","data":
+[
+{"survey_id":"1","answer":"0","by_user_id":"zain","on_date":"2020-10-11 08:42:04"},
+{"survey_id":"2","answer":"1","by_user_id":"zain","on_date":"2020-10-11 08:42:04"}
+]
+}
+,{"type":"table","name":"user","database":"toddle","data":
+[
+{"user_id":"user1","password":"password"},
+{"user_id":"user2","password":"password"},
+{"user_id":"zain","password":"password"}
+]
+}
+]

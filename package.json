@@ -1,0 +1,27 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "toddle backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs"
+  ],
+  "author": "201912026",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mfs": "^0.1.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
